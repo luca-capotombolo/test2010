@@ -4,7 +4,8 @@ public class eBuyer implements eShop{
 	
 	public eBuyer()
 	{
-		
+		int i;
+		int u;	
 	}
 	
 	/**
