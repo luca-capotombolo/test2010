@@ -3,14 +3,10 @@ jdk:
 - openjdk11
 
 addons:
- sonarcloud
+ sonarcloud:
   organization: "luca-capotombolo"
   token: "079fbca364aa4a5a938651c7ca471ebdedd4a897"
   
 script:
-<<<<<<< .mine
 - ant build
-- sonar-scanner||||||| .r2
--ant build=======
-- ant build
->>>>>>> .r6
+- sonar-scanner
